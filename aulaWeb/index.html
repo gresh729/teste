@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula web</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Daniel Francisco de Moraes</h1>
+    <h1>Trabalho WEB II segundo trimestre</h1>
+
+    <h2>Cadastro da empresa</h2>
+    <div class="form">
+    <form action="teste.php" method="get">
+        <br>
+        <br>
+        <input class="espaco" type="text" name="nome" id="Nome" placeholder="Digite seu nome">
+        <br>
+        <input  type="date" name="idade" id="idade" placeholder="Digite sua data de nascimento">
+        <br>
+        <input class="espaco" type="email" name="email" id="email" placeholder="Digite seu email">
+        <br>
+        <input type="number" name="CPF" id="cpf" placeholder="Digite seu CPF">
+        <br>
+        <input class="espaco" type="text" name="NomeE" id="NomeEmpresa" placeholder="Digite o nome da nome da empresa">
+        <br>
+        <input class="espaco" type="number" name="CNPJ" id="cnpj" placeholder="Digite o CNPJ da empresa">
+<br>
+        <label for="sexo">Homem</label>
+        <input type="radio" name="sexo" id="homem">
+        <br>
+        <label for="sexo">Mulher</label>
+        <input type="radio" name="sexo" id="mulher">
+        <br>
+        <label for="sexo">Outro</label>
+        <input type="radio" name="sexo" id="outro">
+        <br>
+        <input type="text" name="sexoOutro" id="outroSexo" disabled>
+        <br>
+        <button type="button" id="enviar">Enviar</button>
+    </form>
+</div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
